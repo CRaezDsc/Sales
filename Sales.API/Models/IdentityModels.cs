@@ -21,7 +21,7 @@ namespace Sales.API.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Sales", throwIfV1Schema: false)
         {
         }
         
